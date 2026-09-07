@@ -1,10 +1,10 @@
 ---
-name: Bug Script
-about: Plantilla para reportar problemas respecto a la ejecución del script
+name: Cambio Script
+about: Plantilla para reportar cambios en el script
 title: ''
-labels: bug
+labels: documentation
 assignees: ealtamiratec
-type: Bug
+type: Feature
 
 ---
 
