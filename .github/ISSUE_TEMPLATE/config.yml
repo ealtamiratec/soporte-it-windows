@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reporte privado de seguridad
+    url: https://github.com/ealtamiratec/soporte-it-windows/security/advisories/new
+    about: Use este canal para problemas que puedan causar pérdida de datos, exposición, ejecución no prevista o interrupciones.

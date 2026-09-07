@@ -1,0 +1,25 @@
+# Informes y exportaciones generados por Soporte-IT
+Diagnostico_*.txt
+WinGet_*.json
+reporte_bateria.html
+
+# Registros locales
+*.log
+Logs/
+logs/
+
+# Paquetes y artefactos locales
+dist/
+*.zip
+*.7z
+
+# Archivos del sistema y editores
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.tmp
+
+# Configuración local opcional
+.vscode/
+.idea/

@@ -1,0 +1,53 @@
+name: Propuesta de mejora
+description: Sugiera una función, compatibilidad o mejora de seguridad/documentación.
+title: "[Mejora]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Necesidad o problema
+      description: Explique qué situación de soporte técnico se desea resolver.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Solución propuesta
+      description: Describa el flujo, los comandos previstos y la experiencia del operador.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Privilegios, impacto y reversión
+      description: Indique si modifica archivos, aplicaciones, red, Registro, arranque o configuración del sistema, y cómo se revierte.
+    validations:
+      required: true
+
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibilidad prevista
+      description: Especifique ediciones y compilaciones de Windows 11, y dependencias adicionales.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tests
+    attributes:
+      label: Plan de pruebas
+      description: Explique cómo se probará en una máquina virtual o equipo de laboratorio.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacidad
+      options:
+        - label: La propuesta no incluye datos personales, informes reales ni información de clientes.
+          required: true

@@ -1,0 +1,87 @@
+name: Reporte de error
+description: Informe un problema reproducible de Soporte-IT en Windows 11.
+title: "[Error]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportar el problema. No adjunte informes técnicos, registros, direcciones IP, nombres de clientes ni datos personales sin anonimizar.
+
+  - type: input
+    id: version
+    attributes:
+      label: Versión de Soporte-IT
+      description: Indique la versión mostrada en la cabecera.
+      placeholder: 3.0
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Edición y compilación de Windows
+      placeholder: Windows 11 Pro, compilación 26100
+    validations:
+      required: true
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: Módulo afectado
+      options:
+        - Inicio o elevación UAC
+        - Información del sistema
+        - Reparación y mantenimiento
+        - Optimización y limpieza
+        - Administración de programas con WinGet
+        - Diagnóstico y reparación de red
+        - Consolas administrativas
+        - Informe técnico
+        - Registro de actividad
+        - Otro
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Describa las selecciones y condiciones previas, sin incluir datos sensibles.
+      placeholder: |
+        1. Ejecutar Soporte-IT.bat
+        2. Elegir la opción...
+        3. Observar...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado observado
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Contexto adicional anonimizado
+      description: Incluya mensajes de error o capturas únicamente después de retirar datos identificables.
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Confirmaciones
+      options:
+        - label: He eliminado nombres, correos, teléfonos, IP, MAC, nombres de equipo, usuarios y datos de clientes.
+          required: true
+        - label: Este reporte no contiene una vulnerabilidad que deba comunicarse de forma privada según SECURITY.md.
+          required: true
