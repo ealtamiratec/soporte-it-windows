@@ -2,12 +2,12 @@
 
 ## Versiones compatibles
 
-Hasta que exista una nueva publicación, la versión **3.0.x** es la única rama prevista para recibir correcciones de seguridad.
+Hasta que exista una nueva publicación, la versión **1.0.x** es la única rama prevista para recibir correcciones de seguridad.
 
 | Versión | Compatibilidad |
 |---|---|
-| 3.0.x | Compatible |
-| Menores que 3.0 | No definida |
+| 1.0.x | Compatible |
+| Menores que 1.0.0 | No definida |
 
 ## Reporte de vulnerabilidades
 

@@ -14,7 +14,7 @@ body:
     attributes:
       label: Versión de Soporte-IT
       description: Indique la versión mostrada en la cabecera.
-      placeholder: 3.0
+      placeholder: 1.0.0
     validations:
       required: true
 

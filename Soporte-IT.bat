@@ -673,7 +673,7 @@ goto MENU
 :ENCABEZADO
 echo.
 echo  ================================================================================
-echo   ALTAMIRATEC - HERRAMIENTAS DE SOPORTE PARA WINDOWS 11 - VERSION 3.0
+echo   ALTAMIRATEC - HERRAMIENTAS DE SOPORTE PARA WINDOWS 11 - VERSION 1.0.0
 echo  ================================================================================
 echo   Equipo: %COMPUTERNAME%    Usuario: %USERNAME%
 echo  ================================================================================

@@ -29,4 +29,4 @@ El BAT no se ejecutó porque el entorno de preparación no es Windows 11. Antes 
 | Licencia | Confirmar que la atribución de `LICENSE` sea correcta. |
 | Datos personales | No incluidos en el BAT; revisar nuevos cambios antes de publicar. |
 | Canal de contacto | Configurar Issues y Private vulnerability reporting en GitHub. |
-| Versión estable | Publicar `v3.0.0` únicamente después de probar el BAT en Windows 11. |
+| Versión estable | Publicar `v1.0.0` únicamente después de probar el BAT en Windows 11. |

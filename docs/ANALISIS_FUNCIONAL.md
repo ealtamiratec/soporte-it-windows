@@ -4,7 +4,7 @@
 
 `Soporte-IT.bat` es una **consola interactiva de diagnóstico, reparación, optimización y administración para Windows 11**. Centraliza herramientas nativas de Windows y WinGet en un menú ejecutado desde `cmd.exe`. El script no instala servicios propios ni permanece en segundo plano; cada acción se inicia cuando el operador selecciona una opción del menú.
 
-El archivo contiene **707 líneas**, utiliza texto ASCII y terminadores de línea CRLF. Su versión interna es **3.0** y se identifica visualmente como una herramienta de **ALTAMIRATEC**.
+El archivo contiene **707 líneas**, utiliza texto ASCII y terminadores de línea CRLF. Su versión interna es **1.0.0** y se identifica visualmente como una herramienta de **ALTAMIRATEC**.
 
 | Dato técnico | Valor |
 |---|---|
